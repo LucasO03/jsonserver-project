@@ -1,0 +1,98 @@
+{
+  "clientes": [
+    { "id": 1, "nome": "Gallo", "email": "gallo@gallo.com", "senha": "123456" },
+    {
+      "id": 2,
+      "nome": "Indiano",
+      "email": "indiano@val.com",
+      "senha": "654321"
+    },
+    {
+      "id": 3,
+      "nome": "Carneiro",
+      "email": "carneiro@carneiro.com",
+      "senha": "123456789"
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "id_cliente": 1,
+      "data_pedido": "2023-03-31",
+      "total": 135
+    },
+    {
+      "id": 2,
+      "id_cliente": 3,
+      "data_pedido": "2023-03-31",
+      "total": 35.2
+    }
+  ],
+  "itens_pedidos": [
+    {
+      "id_pedido": 1,
+      "id_produto": 1,
+      "preco_unitario": 10,
+      "quantidade": 2,
+      "preco_total": 20
+    },
+    {
+      "id_pedido": 1,
+      "id_produto": 2,
+      "preco_unitario": 15,
+      "quantidade": 1,
+      "preco_total": 15
+    },
+    {
+      "id_pedido": 1,
+      "id_produto": 3,
+      "preco_unitario": 100,
+      "quantidade": 1,
+      "preco_total": 100
+    },
+    {
+      "id_pedido": 2,
+      "id_produto": 1,
+      "preco_unitario": 10,
+      "quantidade": 1,
+      "preco_total": 10
+    },
+    {
+      "id_pedido": 2,
+      "id_produto": 4,
+      "preco_unitario": 8.4,
+      "quantidade": 3,
+      "preco_total": 25.2
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Macarrão",
+      "descricao": "Macarrão macarronado",
+      "preco": 10,
+      "nome_imagem": "macarroni.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Feijoada",
+      "descricao": "Feijoada pronta",
+      "preco": 15,
+      "nome_imagem": "feijones.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Queijo",
+      "descricao": "Queijo caro",
+      "preco": 100,
+      "nome_imagem": "queijao.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Arroz",
+      "descricao": "Arroz branquin",
+      "preco": 8.4,
+      "nome_imagem": "roz.jpg"
+    }
+  ]
+}
